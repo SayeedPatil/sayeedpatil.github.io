@@ -1,9 +1,58 @@
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  line-height: 1.6;
-  background-color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
-a {
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+.links a {
+  margin: 10px;
+  text-decoration: none;
   color: #007acc;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
 }
